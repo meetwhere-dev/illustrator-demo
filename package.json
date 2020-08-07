@@ -10,6 +10,9 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "fabric": "^3.6.3",
+    "imports-loader": "^0.8.0",
+    "lodash": "^4.17.19",
+    "snapsvg": "^0.5.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
@@ -41,8 +44,7 @@
     ],
     "parserOptions": {
       "parser": "babel-eslint"
-    },
-    "rules": {}
+    }
   },
   "browserslist": [
     "> 1%",
